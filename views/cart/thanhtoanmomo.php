@@ -37,8 +37,8 @@ $tongtien = total_price($cart);
 $amount = $tongtien;
 $orderId = time() ."";
 
-$redirectUrl = "http://localhost/shopthucung/index.php?page=yourorder";
-$ipnUrl = "http://localhost/shopthucung/index.php?page=yourorder";
+$redirectUrl = "http://localhost/tiemnori/index.php?page=yourorder";
+$ipnUrl = "http://localhost/tiemnori/index.php?page=yourorder";
 $extraData = "";
 
 if(isset($_POST['ordermomo'])){

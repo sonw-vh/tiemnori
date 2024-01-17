@@ -24,7 +24,7 @@
 		$vnp_TmnCode = "1ZTXEO8D"; //Website ID in VNPAY System
 		$vnp_HashSecret = "ZBZGTCIBGWKFPDYXJWGTOXYXVQYTKZSG"; //Secret key
 		$vnp_Url = "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html";
-		$vnp_Returnurl = "http://localhost:8333/shopthucung/index.php?page=vnpay_return";
+		$vnp_Returnurl = "http://localhost:8333/tiemnori/index.php?page=vnpay_return";
 		$vnp_apiUrl = "http://sandbox.vnpayment.vn/merchant_webapi/merchant.html";
 		
 		
