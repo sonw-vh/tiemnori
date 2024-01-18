@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Nunito, Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Nunito, Tahoma, Helvetica, Verdana, sans-serif;
 }
 :root {
   --mainColor: #2a4745;
@@ -277,6 +277,20 @@
   object-fit: cover;
 }
 .post img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.intro {
+  width: 100%;
+  height: 625px;
+  position: relative;
+  display: inline-block;
+  user-select: none;
+  object-fit: cover;
+  font-family: Roboto;
+}
+.intro img {
   width: 100%;
   height: 100%;
   object-fit: cover;
