@@ -13,9 +13,6 @@
 	if(!$conn){
 		echo 'loi ket noi ' . mysqli_connect_error(); 
 	}
-	// else{
-	// 	echo 'ket noi thanh cong';
-	// }
 
 
 	//thanh toan VNPAY

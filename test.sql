@@ -112,7 +112,7 @@ INSERT INTO `sanpham` (`id_sanpham`, `tensp`, `anhsp`, `giasp`, `mota`, `id_danh
 
 
 INSERT INTO `dathang` (`id_dathang`, `madathang`, `makh`, `trangthai`, `tongtien`, `ngaydathang`, `giaohang`, `id_kh`) VALUES
-(1, 'MDH1', 'MAKH1', 'giao thành công', 12000, '2023-02-10 16:26:42','COD', 1);
+(1, 'MDH1', 'MAKH1', 'giao thành công', 18000, '2024-01-09 16:26:42','COD', 1);
 
 INSERT INTO `chitiet_donhang` (`id_ctdonhang`, `madathang`, `makh`, `id_sanpham`, `tensp`, `soluong`, `giamgia`, `giatien`, `tongtien`, `trangthai`, `ngaydat`, `id_dathang`, `id_kh`) VALUES
 (1, 'MDH1', 'MAKH1', 1, 'Thịt gà sốt BBQ – BBQ Chicken', 1, NULL, 18000, 18000, 'giao thành công', '2024-01-17 16:26:42', 1, 0);
