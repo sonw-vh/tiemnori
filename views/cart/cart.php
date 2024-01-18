@@ -183,13 +183,13 @@
     //chuyen khoan vnpay
     $('#op1').click(function() {
         $('#order').attr('name', 'ordervnpay');
-        $('#getinfo_form').attr('action', '/shopthucung/index.php?page=vnpay_create_payment');
+        $('#getinfo_form').attr('action', '/tiemnori/index.php?page=vnpay_create_payment');
         
     });
     //chuyen khoan momo
     $('#op3').click(function() {
         $('#order').attr('name', 'ordermomo');
-        $('#getinfo_form').attr('action', '/shopthucung/index.php?page=thanhtoanmomo');
+        $('#getinfo_form').attr('action', '/tiemnori/index.php?page=thanhtoanmomo');
         
     });
 
