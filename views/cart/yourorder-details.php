@@ -119,6 +119,7 @@
                                 if($row['trangthai'] == 'đang giao' || $row['trangthai'] == 'giao thành công'){
                                     ?>
                                         <span style="color: green;"><?php echo $row['trangthai']; ?></span>
+                                        <a href="index.php?page=phanhoi" class="buy_continute">Feedback</a>
                                     <?php
                                 }
                                 if($row['trangthai'] == 'hủy đơn'){

@@ -102,13 +102,13 @@ INSERT INTO `khachhang` (`makh`, `tenkh`, `diachi`, `email`, `sdt`, `id_kh`) VAL
 ('MAKH1', 'exe201', 'Trường ĐH FPT Đà Nẵng ', 'exe201@gmail.com', 1234567890, 1);
 
 INSERT INTO `sanpham` (`id_sanpham`, `tensp`, `anhsp`, `giasp`, `mota`, `id_danhmuc`) VALUES
-(1, 'Thịt gà sốt BBQ – BBQ Chicken', './upload/Bbq_Chicken.jpg', 18000, NULL, 1),
-(2, 'Trứng ngâm tương – Egg', './upload/Egg.jpg', 18000, NULL, 1),
-(3, 'Spam trứng và mayonnaise - Spam Egg Mayo', './upload/Spam_Egg_Mayo.jpg', 22000, NULL, 1),
-(4, 'Thịt bò sốt cay - Spicy Beef', './upload/Spicy_Beef.jpg', 18000, NULL, 1),
-(5, 'Thịt gà sốt teriyaki - Teriyaki Chicken', './upload/Teriyaki_Chicken.jpg', 18000, NULL, 1),
-(6, 'Cá ngừ mayonnaise - Tuna Mayo', './upload/Tuna_Mayo.jpg', 18000, NULL, 1),
-(7, 'Cá ngừ sốt ớt - Tuna Chili', './upload/Tuna_Chili.jpg', 18000, NULL, 1);
+(1, 'Thịt gà sốt BBQ – BBQ Chicken', './upload/Bbq_Chicken.jpg', 18000, 'Cơm nắm nhân thịt gà sốt BBQ ngon tuyệt đỉnh', 1),
+(2, 'Trứng ngâm tương – Egg', './upload/Egg.jpg', 18000, 'Cơm trứng gà ngâm tương được ủ lâu năm hương vị tuyệt hảo', 1),
+(3, 'Spam trứng và mayonnaise - Spam Egg Mayo', './upload/Spam_Egg_Mayo.jpg', 22000, 'Cơm nắm nhân trứng và spam vị đẫm sốt mayo béo ngậy', 1),
+(4, 'Thịt bò sốt cay - Spicy Beef', './upload/Spicy_Beef.jpg', 18000, 'Cơm nắm nhân thịt bò sốt cay chiều lòng những vị khách sành ăn khó tính', 1),
+(5, 'Thịt gà sốt teriyaki - Teriyaki Chicken', './upload/Teriyaki_Chicken.jpg', 18000, 'Cơm nắm nhân thịt gà sốt teriyaki là lựa chọn hàng đầu cho các bạn trẻ', 1),
+(6, 'Cá ngừ mayonnaise - Tuna Mayo', './upload/Tuna_Mayo.jpg', 18000, 'Cơm nắm cá ngừ mang hương vị của biển cả pha cùng sốt mayo béo ngậy là lựa chọn được yêu thích của giới văn phòng', 1),
+(7, 'Cá ngừ sốt ớt - Tuna Chili', './upload/Tuna_Chili.jpg', 18000, 'Cơm nắm nhân cá ngừ cùng sốt ớt cay nồng kích thích hương vị bùng nổ trong khoang miệng', 1);
 
 
 INSERT INTO `dathang` (`id_dathang`, `madathang`, `makh`, `trangthai`, `tongtien`, `ngaydathang`, `giaohang`, `id_kh`) VALUES

@@ -13,7 +13,7 @@
                     <div class="product__details-info">
                         <h3><?php echo $valueID['tensp']; ?></h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eligendi soluta adipisci debitis. Vero illum perspiciatis deleniti accusantium ea excepturi aut consequatur et maxime harum magni quo suscipit doloribus ex ut, est sunt, sapiente nobis? Nesciunt fuga doloribus perferendis quas?
+                        <?php echo $valueID['mota']; ?>
                         </p>
 
                         <div class="product__pride">
@@ -57,7 +57,7 @@
     <!-- End Hiển thị chi tiết sản phẩm -->
 
     <!-- Mô tả sản phẩm -->
-    <div class="body">
+    <!-- <div class="body">
         <?php 
         $r3 = getID();
             foreach($r3 as $keyID => $valueID){
@@ -72,7 +72,7 @@
             <?php
             }
         ?>       
-    </div>
+    </div> -->
     <!-- End Mô tả sản phẩm -->
 
     <!-- Sản phẩm ngẫu nhiên -->

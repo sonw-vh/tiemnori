@@ -3,9 +3,9 @@
         <div class="footer__title">
             <span>Liên hệ</span>
             <div class="footer__social">
-                <a href="facebook.com/tiemcom.nori/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="tiktok.com/@tiemcom.nori"><i class="fab fa-tiktok"></i></a>
-                <a href="instagram.com/tiemcom.nori/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/tiemcom.nori/#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.tiktok.com/@tiemcom.nori/#"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/tiemcom.nori/#"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     </div>
