@@ -138,11 +138,11 @@
 
                             <div class="phuongthuctt">
                                 <input type="radio" id="op1" name="op1" required>
-                                <label for="op1">Chuyển khoản vnpay</label>
+                                <label for="op1">Chuyển khoản VNPay</label>
 
                                 <br>
-                                <input type="radio" id="op3" name="op1" required>
-                                <label for="op3">Chuyển khoản atm momo</label>
+                                <input type="radio" id="op4" name="op1" required>
+                                <label for="op4">Chuyển khoản Momo</label>
 
 
                                 <br>
@@ -191,6 +191,10 @@
         $('#order').attr('name', 'ordermomo');
         $('#getinfo_form').attr('action', '/tiemnori/index.php?page=thanhtoanmomo');
         
+    });
+    //chuyen khoan momo QR
+    $('#op4').click(function() {
+        $('#order').attr('name', 'ordermomoqr');
     });
 
     //cod

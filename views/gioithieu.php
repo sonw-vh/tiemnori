@@ -21,11 +21,30 @@
                 <p style="font-family: Tahoma"><strong>Facebook</strong>: Tiệm Cơm Nori - Onigiri Đà Nẵng </p>
                 <p style="font-family: Tahoma">🏠 42/24 Nguyễn Thành Hãn </p>
                 <p style="font-family: Tahoma">☎️ 0965700799 - 0968120902 </p>
-                <p style="font-family: Tahoma">⏰ 6:30 - 17:00 | T2 - CN </p><p> </p><p> </p>
+                <p style="font-family: Tahoma">⏰ 6:30 - 17:00 | T2 - CN </p>
                 
 
                 <!-- Hình ảnh -->
                 <img src="img/menu.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="body">
+    <div class="body__mainTitle">
+        <h2>🍙 BẢO QUẢN CƠM NORI 🍙</h2>
+    </div>
+
+    <div>
+        <div class="post">
+            <div class="intro">
+                <!-- Nội dung bài viết -->
+                <h3>✨Hãy dùng cơm đúng cách để bữa ăn được ngon hơn bạn nhé!✨</h3>
+                
+            
+                <!-- Hình ảnh -->
+                <img src="img/baoquan.jpg" alt="">
             </div>
         </div>
     </div>
