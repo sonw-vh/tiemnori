@@ -288,12 +288,11 @@
   display: inline-block;
   user-select: none;
   object-fit: cover;
-  font-family: Roboto;
 }
 .intro img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: none;
 }
 .prev {
   position: absolute;
