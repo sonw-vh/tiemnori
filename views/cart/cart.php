@@ -137,8 +137,8 @@
                             </div>
 
                             <div class="phuongthuctt">
-                                <input type="radio" id="op1" name="op1" required>
-                                <label for="op1">Chuyển khoản VNPay</label>
+                                <!-- <input type="radio" id="op1" name="op1" required>
+                                <label for="op1">Chuyển khoản VNPay</label> -->
 
                                 <br>
                                 <input type="radio" id="op4" name="op1" required>
