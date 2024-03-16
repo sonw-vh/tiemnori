@@ -21,8 +21,8 @@
             <div class="navbar__menu">
                 <i id="bars" class="fa fa-bars" aria-hidden="true"></i>
                 <ul>
-                    <li><a href="index.php?page=gioithieu">Giới thiệu</a></li>
                     <li><a href="index.php">Trang chủ</a></li>
+                    <li><a href="index.php?page=gioithieu">Giới thiệu</a></li>
                     <li>
                         <?php
                             if(isset($_SESSION['fullname'])){
@@ -36,6 +36,7 @@
                             }
                         ?>
                     </li>
+                    <li><a href="customize.php">Cơm tự chọn</a></li>
                 </ul>
             </div>
 

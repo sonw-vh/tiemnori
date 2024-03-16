@@ -1,12 +1,7 @@
 <footer>
     <div class="footer">
         <div class="footer__title">
-            <span>Liên hệ</span>
-            <div class="footer__social">
-                <a href="https://www.facebook.com/tiemcom.nori/#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.tiktok.com/@tiemcom.nori/#"><i class="fab fa-tiktok"></i></a>
-                <a href="https://www.instagram.com/tiemcom.nori/#"><i class="fab fa-instagram"></i></a>
-            </div>
+            <span>Thông tin chi tiết</span>
         </div>
     </div>
     
@@ -14,7 +9,13 @@
 
         <div class="footer__info-content">
             <h3>Giới thiệu</h3>
-            <p>Tiệm Cơm Nori - Onigiri Đà Nẵng cung cấp cơm nắm ngon vãi số một!!!</p>
+            <p>Tiệm cơm Nori - Cơm nắm Onigiri tại Đà Nẵng</p>
+            <p></p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/tiemcom.nori/#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.tiktok.com/@tiemcom.nori/#"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/tiemcom.nori/#"><i class="fab fa-instagram"></i></a>
+            </div>
         </div>
 
 
@@ -36,6 +37,6 @@
     </div>
 
     <div class="footer__copyright">
-        <center> 2022 All rights reserved.</center>
+        <center>2024 All rights reserved.</center>
     </div>
 </footer>

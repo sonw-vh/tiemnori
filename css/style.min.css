@@ -270,7 +270,7 @@
 }
 .post {
   width: 100%;
-  height: 625px;
+  height: auto;
   position: relative;
   display: inline-block;
   user-select: none;
@@ -283,11 +283,11 @@
 }
 .intro {
   width: 100%;
-  height: 625px;
+  height: auto;
   position: relative;
-  display: inline-block;
+  display: block;
   user-select: none;
-  object-fit: cover;
+  object-fit: contain;
 }
 .intro img {
   width: 100%;
@@ -821,7 +821,7 @@ footer {
   background: #363636;
 }
 .footer__info {
-  display: flex;
+  display: flexbox;
   justify-content: space-between;
   width: 70%;
   margin: 0 auto;
