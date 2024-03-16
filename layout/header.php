@@ -36,7 +36,7 @@
                             }
                         ?>
                     </li>
-                    <li><a href="customize.php">Cơm tự chọn</a></li>
+                    <div style="opacity: 0.7; cursor: default;">Cơm tự chọn</div>
                 </ul>
             </div>
 
@@ -77,11 +77,27 @@
                 }
             ?>
 
-            <a href="index.php?page=cart" class="navbar__shoppingCart">
-                <img src="./img/shopping-cart.svg" style="width: 24px;" alt="">
+            <?php 
+                if(isset($_SESSION['fullname'])){ //kiem tra neu ton tai session fullname 
+                $name =$_SESSION['fullname'];
+
+                ?>
+                    <a href="index.php?page=cart" class="navbar__shoppingCart">
+                        <img src="./img/shopping-cart.svg" style="width: 24px;" alt="">
+                        
+                        <span><?php echo $count ?></span>
+                    </a>
+                <?php
                 
-                <span><?php echo $count ?></span>
-            </a>
+                }else{
+                ?>
+            
+                    <div class="login">
+                        <a href="index.php?page=login" class="navbar__shoppingCart"><img src="./img/shopping-cart.svg" style="width: 24px;" alt=""><span><?php echo $count ?></span></a>
+                    </div>
+                <?php
+                }
+            ?>
         </div>
     </div>
 

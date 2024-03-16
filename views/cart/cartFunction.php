@@ -16,7 +16,7 @@
 
     if(isset($_POST['quantity'])){
         if($_POST['quantity'] < 1 || $_POST['quantity'] > 9999){
-            echo "<script type='text/javascript'>alert('nhập số lượng không đúng');</script>";
+            echo "<script type='text/javascript'>alert('Nhập số lượng không đúng!');</script>";
             
         }
         else{
@@ -140,7 +140,7 @@
         }
         
         else{
-            echo "<script>alert('Bạn cần đăng nhập để sử dụng chức năng này');</script>";
+            echo "<script>alert('Bạn cần đăng nhập để sử dụng chức năng này!');</script>";
         }
     }
 
@@ -195,7 +195,7 @@
         }
         
         else{
-            echo "<script>alert('Bạn cần đăng nhập để sử dụng chức năng này');</script>";
+            echo "<script>alert('Bạn cần đăng nhập để sử dụng chức năng này!');</script>";
         }
     }
 

@@ -43,7 +43,7 @@
                             </div>
     
                             <div class="product__cart">
-                                <button type="submit" class="product__cart-add" name="add-to-cart" onclick="alert('Them vao gio hang thanh cong')">Thêm vào giỏ hàng</button>
+                                <button type="submit" class="product__cart-add" name="add-to-cart" onclick="alert('Thêm vào giỏ hàng thành công!')">Thêm vào giỏ hàng</button>
     
                                 <button type="submit" class="product__cart-buy" name="buy-now">Mua ngay</button>
                             </div>
