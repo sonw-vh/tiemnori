@@ -102,20 +102,18 @@ INSERT INTO `khachhang` (`makh`, `tenkh`, `diachi`, `email`, `sdt`, `id_kh`) VAL
 ('MAKH1', 'exe201', 'Trường ĐH FPT Đà Nẵng ', 'exe201@gmail.com', 1234567890, 1);
 
 INSERT INTO `sanpham` (`id_sanpham`, `tensp`, `anhsp`, `giasp`, `mota`, `id_danhmuc`) VALUES
-(1, 'Thịt gà sốt BBQ – BBQ Chicken', './upload/Bbq_Chicken.jpg', 18000, 'Cơm nắm nhân thịt gà sốt BBQ ngon tuyệt đỉnh', 1),
-(2, 'Trứng ngâm tương – Egg', './upload/Egg.jpg', 18000, 'Cơm trứng gà ngâm tương được ủ lâu năm hương vị tuyệt hảo', 1),
-(3, 'Spam trứng và mayonnaise - Spam Egg Mayo', './upload/Spam_Egg_Mayo.jpg', 22000, 'Cơm nắm nhân trứng và spam vị đẫm sốt mayo béo ngậy', 1),
-(4, 'Thịt bò sốt cay - Spicy Beef', './upload/Spicy_Beef.jpg', 18000, 'Cơm nắm nhân thịt bò sốt cay chiều lòng những vị khách sành ăn khó tính', 1),
-(5, 'Thịt gà sốt teriyaki - Teriyaki Chicken', './upload/Teriyaki_Chicken.jpg', 18000, 'Cơm nắm nhân thịt gà sốt teriyaki là lựa chọn hàng đầu cho các bạn trẻ', 1),
-(6, 'Cá ngừ mayonnaise - Tuna Mayo', './upload/Tuna_Mayo.jpg', 18000, 'Cơm nắm cá ngừ mang hương vị của biển cả pha cùng sốt mayo béo ngậy là lựa chọn được yêu thích của giới văn phòng', 1),
-(7, 'Cá ngừ sốt ớt - Tuna Chili', './upload/Tuna_Chili.jpg', 18000, 'Cơm nắm nhân cá ngừ cùng sốt ớt cay nồng kích thích hương vị bùng nổ trong khoang miệng', 1);
+(1, 'Thịt gà sốt BBQ – BBQ Chicken', './upload/Bbq_Chicken.jpg', 18000, 'Nhà nhà người người vị nướng BBQ 😋 thì 𝐁𝐁𝐐 𝐂𝐡𝐢𝐜𝐤𝐞𝐧 cũng vậy đó, thịt gà cùng xốt cay cay vị đậm đà ăn cùng cơm trắng nóng hổi nữa thì khỏi bànnn !! 10 cục mới đủ hihi 😝', 1),
+(2, 'Trứng ngâm tương – Egg', './upload/Egg.jpg', 18000, '10 người ăn, 9 ngừoi khen là có thật nha. Ai mê cơm 𝐄𝐠𝐠 nhà Nori cũng biết trứng thì to, lòng đào béo ngậy kèm nước tương mặn ngọt nữa. “Cắn” 1 miếng cơm mà ngập nhân 😋😋', 1),
+(3, 'Spam trứng và mayonnaise - Spam Egg Mayo', './upload/Spam_Egg_Mayo.jpg', 22000, 'Vị mới !!! Thử ngay 𝐒𝐩𝐚𝐦 𝐄𝐠𝐠 𝐌𝐚𝐲𝐨 😋 Nghe tên là biết nắm cơm này “Hoành tráng” cỡ nào. Mix từ Spam, trứng chiên  kèm mayonnaise nữaaa 😗 Triển thôi không chờ đợi nữa nè 😚', 1),
+(4, 'Thịt bò sốt cay - Spicy Beef', './upload/Spicy_Beef.jpg', 18000, 'Thịt bò được xào cũng tương ớt Hàn Quốc cay cay mặn mặn hoà quyện tạo nên 𝐒𝐩𝐢𝐜𝐲 𝐁𝐞𝐞𝐟 😝 Ai mà mê vị cơm này thì không đổi luôn ó. Mê Hàn Quốc thì phải mê Nori là chuẩn rồi 😋😋', 1),
+(5, 'Thịt gà sốt teriyaki - Teriyaki Chicken', './upload/Teriyaki_Chicken.jpg', 18000, 'Ai mà không muốn ăn quá cay thì măm măm ngay 𝐓𝐞𝐫𝐢𝐲𝐚𝐤𝐢 𝐂𝐡𝐢𝐜𝐤𝐞𝐧 - Xốt teriyaki mặn mặn ngọt ngọt xào cùng với thịt gà 😋😋 Cắn một miếng mà muốn thêm miếng nữa hehe 😝', 1),
+(6, 'Cá ngừ mayonnaise - Tuna Mayo', './upload/Tuna_Mayo.jpg', 18000, 'Nhắc đến vị bán chạy nhất tại Tiệm cơm Nori thì phải có 𝐓𝐮𝐧𝐚 𝐌𝐚𝐲𝐨 - là sự kết hợp giữa cá ngừ và xốt mayonnaise béo ngậy, ăn cùng cơm nóng cùng miếng rong biển giòn tan 😋😋', 1),
+(7, 'Cá ngừ sốt ớt - Tuna Chili', './upload/Tuna_Chili.jpg', 18000, 'Thử ngay cá ngừ xốt ớt để có thể biết được cá ngừ thơm thơm mix cùng xốt ớt thì quá đỉnh 😚 Một sự kết hợp vừa vị mà măm măm vài miếng là hết 1 cục cơm rồiii 🤤 Đặt cơm thôi nè', 1),
+(8, 'Kimchi sốt cay - Spicy Kimchi', './upload/Spicy_Kimchi.jpg', 18000, 'Nếu bạn đã yêu mến hương vị của Hàn Quốc, thì 𝐒𝐩𝐢𝐜𝐲 𝐊𝐢𝐦𝐜𝐡𝐢 chắc chắn sẽ làm bạn thêm mê mẩn 😋 Sự kết hợp giữa kimchi chua cay với tương ớt thì chỉ có "bùng nổ" vị giác à nhaaa 😍', 1);
 
 
 INSERT INTO `dathang` (`id_dathang`, `madathang`, `makh`, `trangthai`, `tongtien`, `ngaydathang`, `giaohang`, `id_kh`) VALUES
-(1, 'MDH1', 'MAKH1', 'giao thành công', 18000, '2024-01-09 16:26:42','COD', 1);
+(1, 'MDH1', 'MAKH1', 'giao thành công', 18000, '2024-01-17 16:26:42','COD', 1);
 
 INSERT INTO `chitiet_donhang` (`id_ctdonhang`, `madathang`, `makh`, `id_sanpham`, `tensp`, `soluong`, `giamgia`, `giatien`, `tongtien`, `trangthai`, `ngaydat`, `id_dathang`, `id_kh`) VALUES
 (1, 'MDH1', 'MAKH1', 1, 'Thịt gà sốt BBQ – BBQ Chicken', 1, NULL, 18000, 18000, 'giao thành công', '2024-01-17 16:26:42', 1, 0);
-
-
-

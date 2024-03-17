@@ -16,12 +16,11 @@
         <div class="post">
             <div class="intro">
                 <!-- Nội dung bài viết -->
-                <p style="font-family: Tahoma">⏰ Vui lòng chuyển khoản qua QR bên dưới để hoàn thành đơn</p>
+                <p style="font-family: Tahoma">⏰ Vui lòng chuyển khoản qua QR bên dưới để hoàn thành đơn, nội dung chuyển khoản: "<strong>Mã KH</strong>"</p>
                 <!-- Hình ảnh -->
-                <img style="height:70%" src="img/fake_qr.png" alt="">
+                <img style="height:70%" src="img/qr.jpg" alt="">
             </div>
         </div>
-
 
     <div class="menu_option-head">Chi tiết đơn hàng</div>
     <button class="print" id="Print" style="background: crimson; padding: 5px; color: white; display: inline-block; margin-right: auto;">In hóa đơn</button>
