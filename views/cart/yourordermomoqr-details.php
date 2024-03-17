@@ -16,9 +16,9 @@
         <div class="post">
             <div class="intro">
                 <!-- Nội dung bài viết -->
-                <p style="font-family: Tahoma">⏰ Vui lòng chuyển khoản qua QR bên dưới để hoàn thành đơn, nội dung chuyển khoản: "<strong>Mã KH</strong>"</p>
+                <p style="font-family: Tahoma; padding-bottom: 20px">⏰ Vui lòng chuyển khoản qua QR bên dưới để hoàn thành đơn, nội dung chuyển khoản: "<strong>Mã KH</strong>"</p>
                 <!-- Hình ảnh -->
-                <img style="height:70%" src="img/qr.jpg" alt="">
+                <img style="height: 540px" src="img/qr.jpg" alt="">
             </div>
         </div>
 
